@@ -29,5 +29,3 @@ The number of spaces is up to you as a programmer, the most common use is four, 
 
 """
 print("Hello, World!")
-if 5 > 2:
-print("Five is greater than two!")
