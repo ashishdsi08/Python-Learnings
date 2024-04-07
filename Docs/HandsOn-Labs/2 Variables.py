@@ -9,6 +9,7 @@
 #https://www.geeksforgeeks.org/how-are-variables-stored-in-python-stack-or-heap/
 #https://www.prepbytes.com/blog/python/how-are-variables-stored-in-python-stack-or-heap/ 
 #further read : Garbage Collection 
+import CharCounter
 """
 Python Variables
 Variables are containers for storing data values.
@@ -117,6 +118,7 @@ localVariable = "awesome"
 def myfunc():
   localVariable = "fantastic"
   print("Python is " + localVariable)
+  #charCounter("","")
 
 myfunc()
 
