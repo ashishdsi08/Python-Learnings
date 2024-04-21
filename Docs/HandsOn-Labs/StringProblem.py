@@ -19,6 +19,18 @@ Output: s = “code practice quiz students”
     elif
     elif
     else
+  [students,
+  quiz,
+  practice,
+  code]  
+  for i in (3,0, -1):
+      myList[i]
+  
+  
+  
+  
+  ” List[“students,quiz,practice,code  
+   
 """
 
 def ReverseSentence(sentence):
@@ -44,3 +56,31 @@ Client Code
 print("Hi This Is MY FIRST STRING AND FOR LOOP PROGRAM")
 reversedResult = ReverseSentence("Hi This Is MY FIRST STRING AND FOR LOOP PROGRAM")
 print(reversedResult)
+
+
+
+
+
+{1:[123,amit,'kumar', 'JD', ['t1' 't2' 't3' 't4' ]]}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
