@@ -72,6 +72,23 @@ There are  distinct words. Here, "bcdef" appears twice in the input at the first
 The other words appear once each. The order of the first appearances are "bcdef", "abcdefg" and "bcde" 
 which corresponds to the output.
 """
+class UtilityCount:
+
+    def count(words):
+        uniq_words={}
+        for word in words:
+            if word not in uniq_words.keys():
+                uniq_words[word]=1
+            else:
+                uniq_words[word]=uniq_words[word]+1            
+
+        print(uniq_words.keys())
+        print(uniq_words.values())
+        print(uniq_words.items()) 
+
+
+UtilityCount.count(["A","B","C"])
+
 
 def count(words):
 
