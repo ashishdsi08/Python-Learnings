@@ -1,0 +1,71 @@
+								REST API  -- not only for python
+								
+Code (write, functionalti )
+-----> Other Application can use it
+
+module -> craete and deploy, artifactory external world pip -install module_name---->client code
+
+
+Create web sites ( UI - html , css ) - ( server , server side  logic ) ( host )
+
+Web services 
+
+
+SOAP Based Service -> pasre xml request and response (http , 
+
+Windows services /WCF services  - > installed and run in the windows machines/windows services ( tcp ip )
+
+Rest Based Services ( accessbile over http ) -> access to anyone -> secure ur apis -> ssl -> https
+
+
+Website : https://learn.microsoft.com/en-us/dotnet/standard/threading/managed-threading-basics?redirectedfrom=MSDN renders a HTML page
+
+Endpoints API : https://localhost:5000/employees/
+				https://localhost:5000/employee/1
+				https://localhost:5000/update/employee/
+				https://localhost:5000/delete/employee/2
+
+    request  ->  api -> response
+	request  ->  api -> response
+	request  ->  api -> response
+	
+	stateless 
+	
+	CRUD INSTRUCTION 
+	api(EmployeeAPI)
+	
+	- getEmployees response->( list of all employess)
+	- getEmployee(id)   respone-> Employee if found else not found 
+	- createEmployee(Employye)  response -> success return Employee Id
+	- updateEmployee(Employee)  response -> sucess or failure
+	- deleteEmployee (Id)        responsed -> deleted
+	
+	
+	xml   - any language can parse the xml
+	json  -  
+	{
+	  'id':1,
+	  'name': 'Ashish'	  
+	}
+	
+	request (data in json format)  ->  api over (http) -> response in json 
+	request (data in json format)  ->  api over (http) -> response in json 
+	request (data in json format)  ->  api over (http) -> response in json 
+	
+	
+	Routes ->   https://localhost:5000
+                https://employyeData.com    -> Server ( wpuuu:12739.abcd.com/App)   -> employees	
+	
+	
+	
+	
+	
+	
+	
+
+
+							
+
+
+
+ 
